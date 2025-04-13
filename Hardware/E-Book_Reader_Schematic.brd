@@ -44,7 +44,7 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
@@ -78,7 +78,10 @@
 <wire x1="74" y1="-111.2" x2="74" y2="-101.2" width="0.1524" layer="20"/>
 <wire x1="74" y1="-101.2" x2="92.2" y2="-101.2" width="0.1524" layer="20"/>
 <wire x1="92.2" y1="-101.2" x2="92.2" y2="-111.2" width="0.1524" layer="20"/>
-<wire x1="92.2" y1="-111.2" x2="170.2" y2="-111.2" width="0.1524" layer="20"/>
+<wire x1="92.2" y1="-111.2" x2="165.3" y2="-111.2" width="0.1524" layer="20"/>
+<wire x1="165.3" y1="-111.2" x2="166.206959375" y2="-111.2" width="0.1524" layer="20"/>
+<wire x1="166.206959375" y1="-111.2" x2="167.63825625" y2="-111.2" width="0.1524" layer="20"/>
+<wire x1="167.63825625" y1="-111.2" x2="170.2" y2="-111.2" width="0.1524" layer="20"/>
 <wire x1="170.2" y1="-111.2" x2="170.2" y2="-44" width="0.1524" layer="20"/>
 <wire x1="170.2" y1="-44" x2="92.2" y2="-44" width="0.1524" layer="20"/>
 <wire x1="92.2" y1="-44" x2="92.2" y2="0" width="0.1524" layer="20"/>
@@ -87,10 +90,24 @@
 <wire x1="68.58" y1="-1.41145" x2="19.23976875" y2="-1.41145" width="0.1524" layer="20"/>
 <wire x1="19.23976875" y1="-1.41145" x2="19.23976875" y2="0" width="0.1524" layer="20"/>
 <wire x1="19.23976875" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="-44.102" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="-3.0022" width="0.1524" layer="20"/>
+<wire x1="0" y1="-3.0022" x2="0" y2="-15.3" width="0.1524" layer="20"/>
+<wire x1="0" y1="-15.3" x2="0" y2="-44.102" width="0.1524" layer="20"/>
 <wire x1="0" y1="-44.102" x2="6.22346875" y2="-44.102" width="0.1524" layer="20"/>
 <wire x1="6.22346875" y1="-44.102" x2="6.22346875" y2="-62.454609375" width="0.1524" layer="20"/>
 <wire x1="6.22346875" y1="-62.454609375" x2="0" y2="-62.454609375" width="0.1524" layer="20"/>
+<dimension x1="24" y1="-3.0022" x2="0" y2="-3.0022" x3="12" y3="1.27" textsize="1.778" layer="20"/>
+<dimension x1="49.003434375" y1="-3.00008125" x2="0.00211875" y2="-3.00008125" x3="24.502775" y3="5.08" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="64.00354375" y1="-3.0022" x2="0" y2="6.35" x3="32.001771875" y3="8.89" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="92.2" y1="0" x2="0" y2="10.16" x3="46.1" y3="13.97" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="0" y1="0" x2="0" y2="-15.3" x3="-3.81" y3="-7.65" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="92.2" y1="-44" x2="92.2" y2="0" x3="195.58" y3="-22" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="170.2" y1="-44" x2="92.2" y2="-44" x3="131.2" y3="-35.56" textsize="1.778" layer="20" dtype="horizontal"/>
+<dimension x1="166.206959375" y1="-111.2" x2="166.206959375" y2="-91.9" x3="175.26" y3="-101.55" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="167.63825625" y1="-56.9" x2="167.63825625" y2="-111.2" x3="179.07" y3="-84.05" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="170.2" y1="-111.2" x2="170.2" y2="-44" x3="185.42" y3="-77.6" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="74" y1="-101.2" x2="92.2" y2="-101.2" x3="83.1" y3="-115.57" textsize="1.778" layer="20" dtype="vertical"/>
+<dimension x1="92.2" y1="-101.2" x2="92.2" y2="-111.2" x3="95.25" y3="-106.2" textsize="1.778" layer="20" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="DeskAssistant v19 v1" urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw">
@@ -1373,7 +1390,7 @@ Note: annular ring aren't minimal
 </autorouter>
 <elements>
 <element name="BOOT_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="MYBUTTON" package3d_urn="urn:adsk.eagle:package:47663966/1" value="BUTTON_CUSYOMV1" x="49" y="-3" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.27" y="0.81" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="52.81" y="-5.54" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="C1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="EAGLE-LTSPICE_C0402" package3d_urn="urn:adsk.eagle:package:47663961/1" value="100nF" x="152.908" y="-97.409" smashed="yes" rot="R90">
 <attribute name="NAME" x="153.543" y="-101.854" size="1.27" layer="25" rot="R90"/>
@@ -1382,7 +1399,7 @@ Note: annular ring aren't minimal
 <attribute name="VALUE" x="153.543" y="-106.934" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="EAGLE-LTSPICE_C0402" package3d_urn="urn:adsk.eagle:package:47663961/1" value="100nF" x="60.198" y="-3.0686" smashed="yes" rot="R270">
-<attribute name="NAME" x="58.293" y="-1.1636" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="59.563" y="-7.5136" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="-31.242" y="-94.5086" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-31.242" y="-94.5086" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="58.293" y="-2.4336" size="1.27" layer="27" rot="R270"/>
@@ -1437,7 +1454,7 @@ Note: annular ring aren't minimal
 <attribute name="VALUE" x="125.095" y="-83.82" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="EAGLE-LTSPICE_C0402" package3d_urn="urn:adsk.eagle:package:47663961/1" value="4.7uF/25V" x="93.599" y="-75.946" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.504" y="-76.581" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="96.774" y="-76.581" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEMODEL" value="NONE" x="169.799" y="-54.356" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="169.799" y="-54.356" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="95.504" y="-80.391" size="1.27" layer="27" rot="R90"/>
@@ -1485,7 +1502,7 @@ Note: annular ring aren't minimal
 <attribute name="VALUE" x="3.175" y="-10.795" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="CHANGE_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="MYBUTTON" package3d_urn="urn:adsk.eagle:package:47663966/1" value="BUTTON_CUSYOMV1" x="64" y="-3" smashed="yes" rot="R180">
-<attribute name="NAME" x="75.43" y="2.08" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="72.89" y="-14.43" size="1.27" layer="25" rot="R180"/>
 </element>
 <element uuid="2882400023" name="CHG_LED" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ADAFRUIT_CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:47661969/1" override_locally_modified="yes" value="" x="117.729" y="-61.468" smashed="yes" rot="R90">
 <attribute name="NAME" x="120.904" y="-59.563" size="1.27" layer="25" rot="R180"/>
@@ -1552,15 +1569,15 @@ Note: annular ring aren't minimal
 <attribute name="NAME" x="115.345" y="-71.625" size="1" layer="25" rot="R270"/>
 </element>
 <element uuid="2882400025" name="D3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47663790/1" value="MBR05301" x="90.17" y="-80.01" smashed="yes" rot="R180">
-<attribute name="NAME" x="93.98" y="-80.01" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="95.25" y="-80.01" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="90.17" y="-76.2" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47663790/1" value="MBR05301" x="90.17" y="-76.2" smashed="yes">
-<attribute name="NAME" x="93.98" y="-76.2" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="90.17" y="-73.66" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="90.17" y="-73.66" size="1.27" layer="27" align="center"/>
 </element>
 <element name="D5" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="SOD3716X135N" package3d_urn="urn:adsk.eagle:package:47663790/1" value="MBR05301" x="80.01" y="-71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="81.28" y="-73.66" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="80.01" y="-68.58" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="80.01" y="-73.66" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D6" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="DIOC1608X36N" package3d_urn="urn:adsk.eagle:package:47663962/1" value="PGB1010603MR" x="73.914" y="-84.582" smashed="yes" rot="R180">
@@ -1710,7 +1727,7 @@ Note: annular ring aren't minimal
 <attribute name="MANUFACTURER_PART_NUMBER" value="USB4110-GF-A" x="203.2" y="7.87" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="640-USB4110-GF-A" x="203.2" y="7.87" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/GCT/USB4110-GF-A?qs=KUoIvG%2F9IlYiZvIXQjyJeA%3D%3D" x="203.2" y="7.87" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="167.104" y="-56.9" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="159.484" y="-50.55" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="VALUE" x="158.214" y="-58.17" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="J3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="JST04_1MM_RA" package3d_urn="urn:adsk.eagle:package:41390393/1" value="QWIIC_RIGHT_ANGLE" x="165.2488" y="-91.9" smashed="yes" rot="R90">
@@ -1718,7 +1735,7 @@ Note: annular ring aren't minimal
 <attribute name="PROD_ID" value="CONN-13694" x="237.6388" y="-71.58" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="168.5508" y="-93.551" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="112ATAARR03ATTEND" package3d_urn="urn:adsk.eagle:package:47661953/1" override_locally_modified="yes" value="112A-TAAR-R03_ATTEND" x="5.0762" y="-15.3" smashed="yes" rot="R270">
+<element name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="112ATAARR03ATTEND" package3d_urn="urn:adsk.eagle:package:47661953/1" value="112A-TAAR-R03_ATTEND" x="5.0762" y="-15.3" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="" x="-31.7538" y="-47.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="" x="-31.7538" y="-47.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" value="Micro SD Card Socket, Push-Push Type, Top Mount, SMT, H=1.83mm, 10u" x="-31.7538" y="-47.05" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1736,7 +1753,7 @@ Note: annular ring aren't minimal
 <attribute name="COPYRIGHT" value="Copyright (C) 2024 Ultra Librarian. All rights reserved." x="15.24" y="-58.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="744043680" x="15.24" y="-58.42" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR_NAME" value="Wurth Electronics" x="15.24" y="-58.42" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="80.7412" y="-73.025" size="1.27" layer="25" ratio="6" rot="R180"/>
+<attribute name="NAME" x="78.2012" y="-73.025" size="1.27" layer="25" ratio="6" rot="R180"/>
 <attribute name="VALUE" x="79.1988" y="-80.645" size="1.27" layer="27" ratio="6" rot="R180"/>
 </element>
 <element uuid="2882400003" name="MCP73831" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ESP32_WROVER_SPARKFUN-IC-POWER_SOT23-5" package3d_urn="urn:adsk.eagle:package:47661968/1" value="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" x="121.92" y="-62.23" smashed="yes" rot="R90">
@@ -1900,10 +1917,10 @@ Note: annular ring aren't minimal
 <attribute name="VALUE" x="69.85" y="-81.534" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="RESET_BUTTON" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="MYBUTTON" package3d_urn="urn:adsk.eagle:package:47663966/1" value="BUTTON_CUSYOMV1" x="24" y="-3" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.81" y="2.08" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="24" y="-5.54" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R_BOOT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" package3d_urn="urn:adsk.eagle:package:47663963/1" value="10K" x="52.959" y="-3.175" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.594" y="2.54" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="54.864" y="-1.27" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="-28.321" y="-62.865" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-28.321" y="-62.865" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.054" y="-2.54" size="1.27" layer="27" rot="R270"/>
@@ -1917,20 +1934,20 @@ Note: annular ring aren't minimal
 <attribute name="VALUE" x="89.027" y="-57.15" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_CHANGE" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" package3d_urn="urn:adsk.eagle:package:47663963/1" value="10K" x="67.818" y="-3.048" smashed="yes" rot="R270">
-<attribute name="NAME" x="68.453" y="-1.143" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="69.723" y="-2.413" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="-2.032" y="-93.218" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-2.032" y="-93.218" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="65.913" y="-2.413" size="1.27" layer="27" rot="R270"/>
 <attribute name="VALUE" x="65.913" y="-2.413" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R_CL1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" package3d_urn="urn:adsk.eagle:package:47663963/1" value="10K" x="73.66" y="-80.899" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.295" y="-78.994" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="75.565" y="-78.994" size="1.27" layer="25" rot="R90"/>
 <attribute name="SPICEMODEL" value="NONE" x="165.1" y="-35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="165.1" y="-35.179" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="71.755" y="-78.994" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_RESET" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" package="ESP32_WROVER_EAGLE-LTSPICE_R0402" package3d_urn="urn:adsk.eagle:package:47663963/1" value="10K" x="28.067" y="-3.048" smashed="yes" rot="R270">
-<attribute name="NAME" x="28.702" y="3.937" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="28.702" y="-4.953" size="1.27" layer="25" rot="R270"/>
 <attribute name="SPICEMODEL" value="NONE" x="-48.133" y="-34.798" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="-48.133" y="-34.798" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="26.162" y="-2.413" size="1.27" layer="27" rot="R270"/>
@@ -2170,7 +2187,8 @@ Note: annular ring aren't minimal
 <wire x1="62.325" y1="-3.7395" x2="65.71825" y2="-3.7395" width="0.15" layer="1"/>
 <wire x1="65.71825" y1="-3.7395" x2="65.75" y2="-3.75" width="0.15" layer="1"/>
 <wire x1="62.325" y1="-3.7395" x2="62.25" y2="-3.75" width="0.15" layer="1"/>
-<wire x1="47.2285" y1="-3.80875" x2="46.259" y2="-3.80875" width="0.15" layer="1"/>
+<wire x1="47.2285" y1="-3.80875" x2="46.99" y2="-3.80875" width="0.15" layer="1"/>
+<wire x1="46.99" y1="-3.80875" x2="46.259" y2="-3.80875" width="0.15" layer="1"/>
 <wire x1="46.259" y1="-3.80875" x2="45.22025" y2="-3.80875" width="0.15" layer="1"/>
 <wire x1="45.22025" y1="-3.80875" x2="45.212" y2="-3.825" width="0.15" layer="1"/>
 <wire x1="47.2285" y1="-3.80875" x2="47.25" y2="-3.75" width="0.15" layer="1"/>
@@ -2187,10 +2205,8 @@ Note: annular ring aren't minimal
 <wire x1="52.14525" y1="-10.803" x2="56.57725" y2="-6.371" width="0.15" layer="1"/>
 <wire x1="77.4215" y1="-6.371" x2="77.47" y2="-6.35" width="0.15" layer="1"/>
 <wire x1="52.14525" y1="-10.803" x2="52.07" y2="-10.81" width="0.15" layer="1"/>
-<wire x1="46.259" y1="-9.90275" x2="46.259" y2="-3.878" width="0.15" layer="1"/>
 <wire x1="47.43625" y1="-11.08" x2="46.259" y2="-9.90275" width="0.15" layer="1"/>
 <wire x1="47.57475" y1="-11.08" x2="47.43625" y2="-11.08" width="0.15" layer="1"/>
-<wire x1="46.259" y1="-3.878" x2="46.259" y2="-3.80875" width="0.15" layer="1"/>
 <wire x1="47.57475" y1="-11.08" x2="47.6" y2="-11.11" width="0.15" layer="1"/>
 <wire x1="53.94575" y1="-3.67025" x2="60.17825" y2="-3.67025" width="0.15" layer="1"/>
 <wire x1="53.53025" y1="-3.25475" x2="53.94575" y2="-3.67025" width="0.15" layer="1"/>
@@ -2621,25 +2637,112 @@ Note: annular ring aren't minimal
 </via>
 <via x="15.44275" y="-42.658" extent="1-16" drill="0.3">
 </via>
-<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
-<vertex x="-13.9384375" y="-135.8138"/>
-<vertex x="216.9860375" y="-135.8138"/>
-<vertex x="215.8354" y="-134.6631625"/>
-<vertex x="215.8238" y="-134.63515625"/>
-<vertex x="215.8238" y="21.5138"/>
-<vertex x="-17.7484375" y="21.5138"/>
-<vertex x="-20.2438" y="19.0184375"/>
-<vertex x="-20.2438" y="-129.5084375"/>
-</polygon>
+<wire x1="46.259" y1="-9.90275" x2="46.259" y2="-4.53975" width="0.15" layer="1"/>
+<wire x1="46.259" y1="-4.53975" x2="46.99" y2="-3.80875" width="0.15" layer="1"/>
 <polygon width="0.1524" layer="16" spacing="1.27" pour="solid" thermals="yes">
-<vertex x="-12.6684375" y="-137.0838"/>
-<vertex x="215.8238" y="-137.0838"/>
-<vertex x="215.8238" y="19.0184375"/>
-<vertex x="214.5984375" y="20.2438"/>
-<vertex x="-16.4784375" y="20.2438"/>
-<vertex x="-18.9738" y="17.7484375"/>
-<vertex x="-18.9738" y="-130.7784375"/>
+<vertex x="-11.3984375" y="-125.6538"/>
+<vertex x="176.4984375" y="-125.6538"/>
+<vertex x="180.2638" y="-121.8884375"/>
+<vertex x="180.2638" y="-1.3015625"/>
+<vertex x="175.2284375" y="3.7338"/>
+<vertex x="-13.9384375" y="3.7338"/>
+<vertex x="-20.2438" y="-2.5715625"/>
+<vertex x="-20.2438" y="-116.8084375"/>
 </polygon>
+<polygon width="0.1524" layer="1" spacing="1.27" pour="solid" thermals="yes">
+<vertex x="-8.8584375" y="-128.1938"/>
+<vertex x="176.4984375" y="-128.1938"/>
+<vertex x="181.5338" y="-123.1584375"/>
+<vertex x="181.5338" y="-2.5715625"/>
+<vertex x="175.2284375" y="3.7338"/>
+<vertex x="-12.6684375" y="3.7338"/>
+<vertex x="-20.2438" y="-3.8415625"/>
+<vertex x="-20.2438" y="-116.8084375"/>
+</polygon>
+<via x="132.08" y="-85.09" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="85.09" y="-13.97" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="34.29" y="-66.04" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="29.21" y="-58.42" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="30.48" y="-69.85" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="36.83" y="-73.66" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="26.67" y="-54.61" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="19.05" y="-55.88" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="16.51" y="-48.26" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="17.78" y="-50.8" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="76.2" y="-76.2" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="83.82" y="-74.93" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="86.36" y="-91.44" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="46.99" y="-87.63" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="53.34" y="-83.82" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="57.15" y="-78.74" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="55.88" y="-69.85" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="63.5" y="-64.77" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="95.25" y="-60.96" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="38.1" y="-67.31" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="40.64" y="-60.96" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="8.636" y="-46.482" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="94.869" y="-55.753" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="71.755" y="-84.328" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="74.168" y="-82.931" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="82.677" y="-90.551" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="81.915" y="-87.249" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="74.93" y="-91.44" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="73.66" y="-93.98" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="69.723" y="-95.758" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="67.31" y="-95.25" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="80.01" y="-73.66" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="79.248" y="-77.089" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="119.634" y="-64.389" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="24.13" y="-46.99" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="7.62" y="-41.91" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="5.08" y="-38.1" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="12.319" y="-63.373" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="17.653" y="-63.246" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="20.447" y="-63.373" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="10.668" y="-59.817" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
+<via x="5.08" y="-63.881" extent="1-16" drill="0.35" alwaysstop="yes">
+</via>
 </signal>
 <signal name="VBUS" class="1">
 <contactref element="D1" pad="2"/>
@@ -2996,10 +3099,8 @@ Note: annular ring aren't minimal
 <wire x1="28.04625" y1="-3.7395" x2="28.067" y2="-3.698" width="0.3" layer="1"/>
 <wire x1="7.756" y1="-10.6645" x2="7.62" y2="-10.78" width="0.3" layer="1"/>
 <wire x1="5.54" y1="-20.775" x2="4.91675" y2="-20.775" width="0.3" layer="1"/>
-<wire x1="6.16325" y1="-20.15175" x2="5.54" y2="-20.775" width="0.3" layer="1"/>
-<wire x1="6.16325" y1="-10.87225" x2="6.16325" y2="-20.15175" width="0.3" layer="1"/>
+<wire x1="5.54" y1="-20.775" x2="6.16325" y2="-20.15175" width="0.3" layer="1"/>
 <wire x1="4.91675" y1="-20.775" x2="4.8762" y2="-20.8" width="0.3" layer="1"/>
-<wire x1="6.16325" y1="-10.87225" x2="6.16325" y2="-10.73375" width="0.3" layer="1"/>
 <wire x1="85.039" y1="-45.77425" x2="85.039" y2="-47.43625" width="0.3" layer="1"/>
 <wire x1="85.316" y1="-45.49725" x2="85.039" y2="-45.77425" width="0.3" layer="1"/>
 <wire x1="85.039" y1="-47.43625" x2="84.978" y2="-47.498" width="0.3" layer="1"/>
@@ -3024,21 +3125,18 @@ Note: annular ring aren't minimal
 <wire x1="47.644" y1="-10.1105" x2="47.6" y2="-10.16" width="0.3" layer="1"/>
 <wire x1="52.907" y1="-3.878" x2="52.959" y2="-3.825" width="0.3" layer="1"/>
 <wire x1="67.38025" y1="-3.7395" x2="67.79575" y2="-3.7395" width="0.3" layer="1"/>
-<wire x1="66.54925" y1="-4.5705" x2="67.38025" y2="-3.7395" width="0.3" layer="1"/>
-<wire x1="53.0455" y1="-4.5705" x2="66.54925" y2="-4.5705" width="0.3" layer="1"/>
+<wire x1="67.38025" y1="-3.7395" x2="66.54925" y2="-4.5705" width="0.3" layer="1"/>
 <wire x1="67.79575" y1="-3.7395" x2="67.818" y2="-3.698" width="0.3" layer="1"/>
-<wire x1="53.0455" y1="-4.5705" x2="52.907" y2="-4.5705" width="0.3" layer="1"/>
 <wire x1="83.1" y1="-6.30175" x2="85.039" y2="-6.30175" width="0.3" layer="1"/>
 <wire x1="80.607" y1="-3.80875" x2="83.1" y2="-6.30175" width="0.3" layer="1"/>
-<wire x1="67.93425" y1="-3.80875" x2="79.98375" y2="-3.80875" width="0.3" layer="1"/>
+<wire x1="67.93425" y1="-3.80875" x2="78.74" y2="-3.80875" width="0.3" layer="1"/>
+<wire x1="78.74" y1="-3.80875" x2="79.98375" y2="-3.80875" width="0.3" layer="1"/>
 <wire x1="79.98375" y1="-3.80875" x2="80.607" y2="-3.80875" width="0.3" layer="1"/>
 <wire x1="85.039" y1="-6.30175" x2="85.09" y2="-6.35" width="0.3" layer="1"/>
 <wire x1="67.93425" y1="-3.80875" x2="67.818" y2="-3.698" width="0.3" layer="1"/>
 <wire x1="82.6845" y1="-9.62575" x2="82.6845" y2="-44.597" width="0.3" layer="1"/>
-<wire x1="79.98375" y1="-6.925" x2="82.6845" y2="-9.62575" width="0.3" layer="1"/>
-<wire x1="79.98375" y1="-3.94725" x2="79.98375" y2="-6.925" width="0.3" layer="1"/>
+<wire x1="82.6845" y1="-9.62575" x2="79.98375" y2="-6.925" width="0.3" layer="1"/>
 <wire x1="82.6845" y1="-44.597" x2="82.75375" y2="-44.7355" width="0.3" layer="1"/>
-<wire x1="79.98375" y1="-3.94725" x2="79.98375" y2="-3.80875" width="0.3" layer="1"/>
 <wire x1="29.085" y1="-3.80875" x2="28.18475" y2="-3.80875" width="0.3" layer="1"/>
 <wire x1="33.86325" y1="-8.587" x2="29.085" y2="-3.80875" width="0.3" layer="16"/>
 <wire x1="47.644" y1="-8.587" x2="33.86325" y2="-8.587" width="0.3" layer="16"/>
@@ -3075,6 +3173,16 @@ Note: annular ring aren't minimal
 </via>
 <via x="82.4075" y="-53.184" extent="1-16" drill="0.3">
 </via>
+<wire x1="79.98375" y1="-6.925" x2="79.98375" y2="-5.10625" width="0.3" layer="1"/>
+<wire x1="79.98375" y1="-5.10625" x2="80.01" y2="-5.08" width="0.3" layer="1"/>
+<wire x1="80.01" y1="-5.08" x2="80.01" y2="-5.07875" width="0.3" layer="1"/>
+<wire x1="80.01" y1="-5.07875" x2="78.74" y2="-3.80875" width="0.3" layer="1"/>
+<wire x1="66.54925" y1="-4.5705" x2="66.03975" y2="-5.08" width="0.3" layer="1"/>
+<wire x1="66.03975" y1="-5.08" x2="54.61" y2="-5.08" width="0.3" layer="1"/>
+<wire x1="54.61" y1="-5.08" x2="53.4165" y2="-5.08" width="0.3" layer="1"/>
+<wire x1="53.4165" y1="-5.08" x2="52.907" y2="-4.5705" width="0.3" layer="1"/>
+<wire x1="6.16325" y1="-20.15175" x2="6.16325" y2="-11.7725" width="0.3" layer="1"/>
+<wire x1="6.16325" y1="-11.7725" x2="5.1245" y2="-10.73375" width="0.3" layer="1"/>
 </signal>
 <signal name="VBAT" class="1">
 <contactref element="Q1" pad="3"/>
@@ -3224,9 +3332,7 @@ Note: annular ring aren't minimal
 <contactref element="U2" pad="4"/>
 <contactref element="R10" pad="1"/>
 <contactref element="D8" pad="2"/>
-<wire x1="10.1105" y1="-12.11875" x2="7.68675" y2="-12.11875" width="0.15" layer="1"/>
-<wire x1="10.6645" y1="-12.67275" x2="10.1105" y2="-12.11875" width="0.15" layer="1"/>
-<wire x1="7.68675" y1="-12.11875" x2="7.62" y2="-12.08" width="0.15" layer="1"/>
+<wire x1="10.6645" y1="-12.67275" x2="10.425875" y2="-12.434125" width="0.15" layer="1"/>
 <wire x1="10.6645" y1="-12.67275" x2="10.68" y2="-12.7" width="0.15" layer="1"/>
 <wire x1="5.54" y1="-22.8525" x2="5.54" y2="-22.991" width="0.15" layer="1"/>
 <wire x1="7.68675" y1="-20.70575" x2="5.54" y2="-22.8525" width="0.15" layer="1"/>
@@ -3246,6 +3352,8 @@ Note: annular ring aren't minimal
 <wire x1="5.4015" y1="-22.991" x2="4.77825" y2="-22.991" width="0.15" layer="1"/>
 <wire x1="11.357" y1="-61.97875" x2="11.377" y2="-62.0182" width="0.15" layer="1"/>
 <wire x1="5.4015" y1="-22.991" x2="5.4762" y2="-23" width="0.15" layer="1"/>
+<wire x1="10.425875" y1="-12.434125" x2="7.932875" y2="-12.434125" width="0.15" layer="1"/>
+<wire x1="7.932875" y1="-12.434125" x2="7.68675" y2="-12.188" width="0.15" layer="1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="J4" pad="P3"/>
@@ -3415,7 +3523,8 @@ Note: annular ring aren't minimal
 <contactref element="J1" pad="23"/>
 <wire x1="77.76775" y1="-96.18825" x2="77.76775" y2="-96.5345" width="0.15" layer="1"/>
 <wire x1="73.959" y1="-92.3795" x2="73.993625" y2="-92.414125" width="0.15" layer="1"/>
-<wire x1="73.993625" y1="-92.414125" x2="77.76775" y2="-96.18825" width="0.15" layer="1"/>
+<wire x1="73.993625" y1="-92.414125" x2="74.60975" y2="-93.03025" width="0.15" layer="1"/>
+<wire x1="74.60975" y1="-93.03025" x2="77.76775" y2="-96.18825" width="0.15" layer="1"/>
 <wire x1="71.81225" y1="-92.3795" x2="73.959" y2="-92.3795" width="0.15" layer="1"/>
 <wire x1="77.76775" y1="-96.5345" x2="77.808" y2="-96.594" width="0.15" layer="1"/>
 <wire x1="71.81225" y1="-92.3795" x2="71.766" y2="-92.344" width="0.15" layer="1"/>
@@ -3426,10 +3535,12 @@ Note: annular ring aren't minimal
 <wire x1="72.7125" y1="-82.823" x2="72.7125" y2="-75.344" width="0.15" layer="1"/>
 <wire x1="73.959" y1="-84.0695" x2="72.7125" y2="-82.823" width="0.15" layer="1"/>
 <wire x1="73.959" y1="-85.316" x2="73.959" y2="-84.0695" width="0.15" layer="1"/>
-<wire x1="74.02825" y1="-85.38525" x2="73.959" y2="-85.316" width="0.15" layer="1"/>
-<wire x1="74.02825" y1="-92.3795" x2="74.02825" y2="-85.38525" width="0.15" layer="1"/>
 <wire x1="88.363" y1="-76.175" x2="88.42" y2="-76.2" width="0.15" layer="1"/>
-<wire x1="74.02825" y1="-92.3795" x2="73.993625" y2="-92.414125" width="0.15" layer="1"/>
+<wire x1="73.959" y1="-85.316" x2="73.959" y2="-85.389" width="0.15" layer="1"/>
+<wire x1="73.959" y1="-85.389" x2="76.2" y2="-87.63" width="0.15" layer="1"/>
+<wire x1="76.2" y1="-87.63" x2="76.2" y2="-92.71" width="0.15" layer="1"/>
+<wire x1="76.2" y1="-92.71" x2="75.87975" y2="-93.03025" width="0.15" layer="1"/>
+<wire x1="75.87975" y1="-93.03025" x2="74.60975" y2="-93.03025" width="0.15" layer="1"/>
 </signal>
 <signal name="PREVGH">
 <contactref element="D5" pad="2"/>
