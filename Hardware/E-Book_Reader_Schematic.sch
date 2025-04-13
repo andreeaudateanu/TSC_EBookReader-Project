@@ -2758,7 +2758,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <part uuid="2882400006" name="IC4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="XC6220A331MR-G" device="" package3d_urn="urn:adsk.eagle:package:47661962/1"/>
 <part name="R1_PWRUSB" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47663963/1" value="100K"/>
 <part name="C1_BAT1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="EAGLE-LTSPICE_C" device="C0402" package3d_urn="urn:adsk.eagle:package:47663961/1" value="4.7uF"/>
-<part uuid="2882400019" name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="112A-TAAR-R03_ATTEND" device="" package3d_urn="urn:adsk.eagle:package:47661953/1" override_locally_modified="yes"/>
+<part uuid="2882400019" name="J4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="112A-TAAR-R03_ATTEND" device="" package3d_urn="urn:adsk.eagle:package:47661953/1"/>
 <part name="SUPPLY2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="C9" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" package3d_urn="urn:adsk.eagle:package:47661975/3" value="100nF"/>
 <part name="GND11" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.ef-MVmK8TFeaGWDB0b3dGw" deviceset="GND" device=""/>
@@ -3003,7 +3003,6 @@ Stemma QT</text>
 </instance>
 <instance part="PFMF.050.1" gate="G$1" x="-170.18" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-165.1" y="105.41" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-167.64" y="95.25" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R2-USB1" gate="G$1" x="-167.64" y="93.98" smashed="yes">
 <attribute name="NAME" x="-171.45" y="90.3986" size="1.778" layer="95"/>
@@ -3141,7 +3140,7 @@ Stemma QT</text>
 <attribute name="VALUE" x="-74.93" y="58.42" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="GND15" gate="1" x="-129.54" y="25.4" smashed="yes">
-<attribute name="VALUE" x="-132.08" y="22.86" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-132.334" y="23.368" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="-66.04" y="55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-63.5" y="53.34" size="1.778" layer="96" rot="R90"/>
@@ -3163,7 +3162,6 @@ Stemma QT</text>
 </instance>
 <instance part="MCP73831" gate="G$1" x="22.86" y="50.8" smashed="yes">
 <attribute name="NAME" x="15.24" y="56.388" size="1.778" layer="95"/>
-<attribute name="VALUE" x="15.24" y="43.18" size="1.778" layer="96"/>
 </instance>
 <instance part="R1_BAT" gate="G$1" x="2.54" y="38.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.1214" y="34.29" size="1.778" layer="95" rot="R90"/>
@@ -3223,40 +3221,40 @@ Stemma QT</text>
 <attribute name="VALUE" x="-162.179" y="9.144" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C11" gate="G$1" x="-162.56" y="5.08" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-152.019" y="6.604" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-152.019" y="4.064" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-164.973" y="3.048" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-153.035" y="5.334" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C10" gate="G$1" x="-147.32" y="2.54" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-136.779" y="4.064" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-136.779" y="1.524" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-149.479" y="3.048" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-150.495" y="0.762" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C9" gate="G$1" x="-167.64" y="0" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-169.799" y="1.524" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-169.799" y="-1.016" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-170.053" y="0.508" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-170.053" y="-2.286" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C8" gate="G$1" x="-154.94" y="-2.54" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-157.099" y="-1.016" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-157.099" y="-3.556" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-157.099" y="-2.286" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-157.099" y="-4.826" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C7" gate="G$1" x="-167.64" y="-5.08" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-169.799" y="-6.096" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-169.799" y="-8.636" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-169.799" y="-4.572" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-170.053" y="-7.112" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C6" gate="G$1" x="-154.94" y="-7.62" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-144.399" y="-6.096" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-144.399" y="-8.636" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-144.653" y="-7.112" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-144.653" y="-9.652" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C5" gate="G$1" x="-172.72" y="-15.24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-169.799" y="-18.796" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-159.639" y="-13.716" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="-168.529" y="-21.336" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C2" gate="G$1" x="-165.1" y="-40.64" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-167.259" y="-39.116" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-154.559" y="-39.116" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-161.925" y="-37.084" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-155.829" y="-39.878" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="EPD_C1" gate="G$1" x="-172.72" y="-43.18" smashed="yes" rot="MR90">
-<attribute name="NAME" x="-174.879" y="-46.736" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="-162.179" y="-46.736" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="-171.831" y="-47.498" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-162.941" y="-45.466" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND23" gate="1" x="-106.68" y="-2.54" smashed="yes">
 <attribute name="VALUE" x="-109.22" y="-5.08" size="1.778" layer="96"/>
@@ -3315,15 +3313,12 @@ Stemma QT</text>
 </instance>
 <instance part="RESET_BUTTON" gate="G$1" x="68.58" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.754" y="-33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="71.374" y="-33.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="BOOT_BUTTON" gate="G$1" x="88.9" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.074" y="-33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="91.694" y="-33.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="CHANGE_BUTTON" gate="G$1" x="109.22" y="-33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="104.394" y="-33.02" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="112.014" y="-33.02" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="IC1" gate="G$1" x="58.42" y="-20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="-25.4" size="1.778" layer="95" rot="R180" align="center-left"/>
@@ -3447,27 +3442,27 @@ Stemma QT</text>
 </instance>
 <instance part="D12" gate="G$1" x="38.1" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.64" y="-104.14" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.02" y="-106.68" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="36.322" y="-109.474" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D11" gate="G$1" x="48.26" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.8" y="-104.14" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="45.72" y="-111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="46.99" y="-110.998" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D10" gate="G$1" x="60.96" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.5" y="-104.14" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="58.42" y="-111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="59.436" y="-111.506" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D9" gate="G$1" x="71.12" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="-104.14" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="68.58" y="-111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="69.596" y="-110.744" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D6" gate="G$1" x="81.28" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="83.82" y="-104.14" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="78.74" y="-111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="79.756" y="-110.998" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D8" gate="G$1" x="91.44" y="-99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="-99.06" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="88.9" y="-111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="90.17" y="-110.236" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J3" gate="J1" x="20.32" y="-91.44" smashed="yes" rot="R180">
 <attribute name="VALUE" x="25.4" y="-86.106" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
